@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lc:CircuitProject xmlns:lc="http://LogicCircuit.net/2.0.0.12/CircuitProject.xsd">
+	<lc:Project>
+		<lc:ProjectId>f58e5eaf-d6c3-4a46-8ae3-c4519127b09c</lc:ProjectId>
+		<lc:Name>电路项目</lc:Name>
+		<lc:LogicalCircuitId>989d0fa5-0ed5-462d-abec-eadd9450753a</lc:LogicalCircuitId>
+	</lc:Project>
+	<lc:LogicalCircuit>
+		<lc:LogicalCircuitId>989d0fa5-0ed5-462d-abec-eadd9450753a</lc:LogicalCircuitId>
+		<lc:Name>主模块</lc:Name>
+		<lc:Notation>Main</lc:Notation>
+	</lc:LogicalCircuit>
+</lc:CircuitProject>

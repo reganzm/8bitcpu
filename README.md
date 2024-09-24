@@ -19,3 +19,47 @@ S= & \overline{A}B + A\overline{B} \\
 C =  & AB
 \end{aligned}
 $$
+
+
+
+### 取反
+
+|I|C|O|
+|-|-|-|
+|0|1|1|
+|0|0|0|
+|1|0|1|
+|1|1|0|
+
+$$
+\begin{aligned}
+O =&I\overline{C} + \overline{I}C \\
+\end{aligned}
+$$
+
+### 按位取反
+```
+8
+00001000
+
+-8 
+11110111 反码
+11111000 补码
+
+
+```
+
+
+### 减法输出真值表
+|C0|Cn|O|
+|-|-|-|
+|0|0|0|
+|0|1|1|
+|1|0|0|
+|1|1|0|
+
+$$
+\begin{aligned}
+    O = \overline{C0}Cn 
+\end{aligned}
+$$
