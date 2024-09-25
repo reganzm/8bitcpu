@@ -1,6 +1,9 @@
 # 8bitcpu
 a simple 8bit cpu with logic-circuit
 
+
+### 加法/减法电路
+
 ![img](./pics/cpu.gif)
 
 
