@@ -97,3 +97,32 @@ set data then open En -> On
 reset data then reset En then open En -> Off
 
 ```
+
+
+
+### 三八译码器真值表【3位输入8位输出】
+|A2|A1|A0|7|6|5|4|3|2|1|0|
+|-|-|-|-|-|-|-|-|-|-|-|
+|0|0|0||||||||1|
+|0|0|1|||||||1||
+|0|1|0||||||1|||
+|0|1|1|||||1||||
+|1|0|0||||1|||||
+|1|0|1|||1||||||
+|1|1|0||1|||||||
+|1|1|1|1||||||||
+
+
+$$
+ \begin{aligned}
+O_0 = \overline{A_2}\overline{A_1}\overline{A_0} \\
+O_1 = \overline{A_2}\overline{A_1}A_0 \\
+O_2 = \overline{A_2}A_1\overline{A_0} \\
+O_3 = \overline{A_2}A_1A_0 \\
+O_4 = A_2\overline{A_1}\overline{A_0} \\
+O_5 = A_2\overline{A_1}A_0 \\
+O_6 = A_2A_1\overline{A_0} \\
+O_7 = A_2A_1A_0 \\
+ \end{aligned}
+$$
+
